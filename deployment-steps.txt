@@ -1,4 +1,6 @@
-1. Added the header in the index.html.
-    - The header contains the Logo and the header title.
+Push to GitHub pages:
 
-2. make a component for the inputed data part.
+npm run build
+git add dist -f
+git commit -m 'adding  dist' 
+git subtree push --prefix dist origin gh-pages
